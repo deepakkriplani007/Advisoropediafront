@@ -14,7 +14,7 @@ function App() {
     }
     console.log(storedString);
   }, []);
-  const host = "https://advisoropedia1.onrender.com";
+  const host = "https://advisoropedia1.onrender.com/api/auth";
   return (
     <>
       <Router>
